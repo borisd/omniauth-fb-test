@@ -14,6 +14,7 @@ gem 'mocha'
 group :test, :development do
     gem "rspec-rails", ">= 2.0.0"
 end
+# gem 'omnisocial'
 
 # Use unicorn as the web server
 # gem 'unicorn'

@@ -1,4 +1,8 @@
 OmniAuth::Application.routes.draw do
+  match '/auth/:provider/callback' => 'authentications#create' 
+
+  resources :authentications
+
   resources :posts
 
   devise_for :users
